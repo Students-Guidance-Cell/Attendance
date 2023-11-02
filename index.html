@@ -1,0 +1,180 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGC ATTENDANCE</title>
+</head>
+<style>
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+input{
+  font-family: 'Open Sans', sans-serif;
+}
+
+input,button{
+  outline: none;
+}
+
+.main_container{
+  min-height: 100vh;
+  width: 100%;
+  background-color: #cddc39;
+  background-image: url('https://wallpapercave.com/wp/wp9321062.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.main_container .form1 {
+    display: block;
+    max-width: 400px;
+    width: 100%;
+    padding: 50px 25px;
+    background-image: linear-gradient(45deg, #fff1, #fff3);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    border: 2px outset #fff5;
+    position: relative;
+    box-shadow: 0 2px 6px #0002, 0 5px 16px #0005;
+}
+
+
+
+.main_container .form1 .group {
+    position: relative;
+    margin-top: 30px;
+}
+
+.main_container .form1 .group .in {
+    background-color: #0002;
+    border-radius: 4px;
+    padding: 6px 25px 6px 10px;
+    display: block;
+    width: 100%;
+    box-shadow: -1px 1px 2px #0002 inset;
+    color: #fff;
+    font-size: 16px;
+    border: 1px outset #fff5;
+    transition: border-radius 0.3s;
+}
+.main_container .form1 .group .in li{
+margin-left: 15%;}
+
+.main_container .form1 button {
+    border: 3px outset #ffffff78;
+    display: inline-block;
+    background: linear-gradient(45deg, #ffffff05, #ffffff61,#ffffff78);
+    padding: 8px 25px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    box-shadow: 0 0 0 4px #fff2;
+    margin: 20px;
+    cursor: pointer;
+    transition-property: transform, background;
+    transition: 0.3s ease-in-out;
+     margin-left: 33%;
+     margin-bottom: 5%;
+}
+
+.main_container .form1 button:hover {
+    background: linear-gradient(-45deg, #ffffff05, #ffffff61);
+    box-shadow: 0 0 5px black,
+    0 0 25px black, 0 0 50px black;
+}
+
+.main_container .form1 button:active {
+    transform: scale(0.95);
+}
+h3{
+   margin-left: 21%;
+   margin-bottom: 10%;
+   }
+h1{
+font-size:25;
+}
+</style>
+<body>
+<div class="main_container">
+  <form methed="get" action="https://script.google.com/macros/s/AKfycbzFbTLoNJ-pMG9OK4nCYFWhhHiV0p-8f4GxMQaY3uE/dev" class="form1">
+<input type="datetime-local" name="DATE" id="Date" value=""><br>
+<div><table>
+<tr>
+<th><img src="https://lh5.googleusercontent.com/p/AF1QipM5m9YO9aNL53xT3xjCw2xVq63SgVH2gWqI-X9Z=w900-h482-p-k-no" width="60" height="40"/></th>
+<th><h1 class="form"  style="float:right;" >SGC ATTENDANCE</h1></th>
+</tr>
+</table>
+</div>
+<div class="group">
+<div class="in">
+<h3>IV YEAR STUDENTS</h3>
+<ol>
+<li><input type="checkbox"  value="TRUE" name="Gnanasekaran" id="Gnanasekaran"/><label for="Gnanasekaran">Gnanasekaran</label></li>
+<li><input type="checkbox"  value="TRUE" name="Gokul" id="Gokul"/><label for="Gokul">Gokul</label></li>
+<li><input type="checkbox"  value="TRUE" id="Jeya Murugan" name="Jeya Murugan"/><label for="Jeya Murugan">JeyaMurugan</label></li>
+<li><input type="checkbox"  value="TRUE" id="Prakash" name="Prakash"/><label for="Prakash">Prakash</label></li>
+<li><input type="checkbox"  value="TRUE" id="Rafique" name="Rafique"/><label for="Rafique">Rafique</label></li>
+<li><input type="checkbox"  value="TRUE" id="Sathakathulla" name="Sathakathulla"/><label for="Sathakathulla">Sathakathulla</label></li>
+<li><input type="checkbox"  value="TRUE" id="Shwetha" name="Shwetha"/><label for="Shwetha">Shwetha</label></li>
+<li><input type="checkbox"  value="TRUE" id="Vahitha" name="Vahitha"/><label for="Vahitha">Vahitha</label> </li>
+<li><input type="checkbox"  value="TRUE" id="Yuvaraj" name="Yuvaraj"/><label for="Yuvaraj">Yuvaraj</label></li>
+</ol> 
+</div>
+</div>
+
+
+<div class="group">
+<div class="in">
+<h3>III YEAR STUDENTS</h3>
+<ol>
+<li><input type="checkbox"  value="TRUE" id="Delhi ganesh" name="Delhi ganesh" /><label for="Delhi ganesh">Delhiganesh</label></li>
+<li><input type="checkbox"  value="TRUE" id="Safiya" name="Safiya"/><label for="Safiya">Safiya</label></li>
+<li><input type="checkbox"  value="TRUE" id="Seneha" name="Seneha"/><label for="Seneha">Seneha</label></li>
+<li><input type="checkbox"  value="TRUE" id="priya" name="priya"/><label for="priya">priya</label></li>
+<li><input type="checkbox"  value="TRUE" id="Thaseem" name="Thaseem"/><label for="Thaseem">Thaseem</label></li>
+<li><input type="checkbox"  value="TRUE" id="varun" name="varun"/><label for="varun">varun</label></li>
+<li><input type="checkbox"  value="TRUE" id="Vallarsu" name="Vallarsu"/><label for="Vallarsu">Vallarsu</label></li>
+<li><input type="checkbox"  value="TRUE" id="Zayd Bilal" name="Zayd Bilal"/><label for="Zayd Bilal">ZaydBilal</label></li>
+</ol> 
+</div>
+</div>
+
+<div class="group">
+<div class="in">
+<h3>II YEAR STUDENTS</h3>
+<ol>
+<li><input type="checkbox"  value="TRUE" id="Abishek" name="Abishek"/><label for="Abishek">Abishek</label></li>
+<li><input type="checkbox"  value="TRUE" id="Abdul Bari" name="Abdul Bari"/><label for="Abdul Bari">AbdulBari</label></li>
+<li><input type="checkbox"  value="TRUE" id="abubakr siddiq" name="abubakr siddiq"/><label for="abubakr siddiq">abubakrsiddiq</label></li>
+<li><input type="checkbox"  value="TRUE" id="Dhanush" name="Dhanush"/><label for="Dhanush">Dhanush</label></li>
+<li><input type="checkbox"  value="TRUE" id="Harish" name="Harish"/><label for="Harish">Harish</label></li>
+<li><input type="checkbox"  value="TRUE" id="Jaheen" name="Jaheen"/><label for="Jaheen">Jaheen</label></li>
+<li><input type="checkbox"  value="TRUE" id="Jaya Suriya" name="Jaya Suriya"/><label for="Jaya Suriya">JayaSuriya</label></li>
+<li><input type="checkbox"  value="TRUE" id="Kamali" name="Kamali"/><label for="Kamali">Kamali</label></li>
+<li><input type="checkbox"  value="TRUE" id="Mukesh" name="Mukesh"/><label for="Mukesh">Mukesh</label></li>
+<li><input type="checkbox"  value="TRUE" id="Ruqyya" name="Ruqyya"/><label for="Ruqyya">Ruqyya</label></li>
+<li><input type="checkbox"  value="TRUE" id="Samreen humera" name="Samreen humera"/><label for="Samreen humera">Samreenhumera</label></li>
+<li><input type="checkbox"  value="TRUE" id="sweatha" name="sweatha"/><label for="sweatha">sweatha</label></li>
+<li><input type="checkbox"  value="TRUE" id="Syed naveeth" name="Syed naveeth"/><label for="Syed naveeth">Syednaveeth</label></li>
+<li><input type="checkbox"  value="TRUE" id="zaina" name="zaina"/><label for="zaina">zaina</label></li>
+</div>
+</div>
+
+
+<button type="submit" name="submit" id="S">SUBMIT</button>
+</form>
+</div>
+</body>
+</html>
